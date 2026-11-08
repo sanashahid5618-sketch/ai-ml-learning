@@ -22,6 +22,6 @@ data analysis, and applied machine learning.
 
 ## About This Repository
 
-This repository will contain my learning exercises and notes.
+This repository contains my learning exercises and notes.
 Some exercises use AI-assisted guidance; I practise explaining,
-modifying, and checking the code myself. data analysis, and machine learning
+modifying, and checking the code myself.
