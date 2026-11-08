@@ -1,12 +1,11 @@
+import pandas as pd
 import matplotlib.pyplot as plt
 
-names = ["Sana", "Ali", "Sara"]
-marks = [85, 70, 90]
-
-plt.bar(names, marks)
+students = pd.read_csv("students.csv")
+chart_data = students.dropna(subset=["marks"])
+plt.bar(chart_data["name"], chart_data["marks"])
 
 plt.title("Student Marks")
-plt.xlabel("Student")
+plt.xlabel("Student Name")
 plt.ylabel("Marks")
-
 plt.show()
