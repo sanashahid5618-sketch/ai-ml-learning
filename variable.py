@@ -1,5 +1,5 @@
 product =(input("enter product name:")) 
-price =float(input("enter prize:")) 
+price =float(input("enter price:")) 
 quantity=int(input("enter total quantity:")) 
 discount_percent = float(input("Enter discount percentage: ")) 
 subtotal=price * quantity 
