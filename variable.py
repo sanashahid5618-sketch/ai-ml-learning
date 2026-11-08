@@ -7,4 +7,4 @@ Discount = subtotal * discount_percent / 100
 final =subtotal-Discount 
 print("subtotal :" , subtotal) 
 print(" Discount:" ,  Discount ) 
-print("  final " , final  )
+print("  final " , final  ) 
